@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.opklm78.momoda">
 
     <application
@@ -21,4 +22,27 @@
 
     </application>
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+=======
+package="com.opklm78.momoda">
+
+<application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity
+        android:name=".ShowPhotoActivity"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+</application>
+
+>>>>>>> 4fc16a49e105d448b26fca73897cddec8a0b2b81
 </manifest>
