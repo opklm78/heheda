@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">momoda</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_show_photo">ShowPhotoActivity</string>
+    <string name="rb_one">joke</string>
+    <string name="rb_two">girl</string>
+    <string name="rb_three">novel</string>
+    <string name="rb_four">mine</string>
+    <string name="tv_bar_joke">joke</string>
+</resources>
