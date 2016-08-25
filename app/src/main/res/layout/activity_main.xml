@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.opklm78.momoda.MainActivity">
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <RadioGroup
+        android:id="@+id/tab_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rbJoke"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center_horizontal|bottom"
+
+            android:drawableTop="@drawable/tab_sel_joke"
+            android:text="@string/rb_one"
+            android:paddingTop="2dp"
+             />
+
+        <RadioButton
+            android:id="@+id/rbGirl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center_horizontal|bottom"
+
+            android:drawableTop="@drawable/tab_sel_gay"
+            android:text="@string/rb_two"
+            android:paddingTop="2dp"
+            />
+
+        <RadioButton
+            android:id="@+id/rbNevol"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:button="@null"
+
+            android:drawableTop="@drawable/tab_sel_novel"
+            android:gravity="center_horizontal|bottom"
+            android:text="@string/rb_three"
+            android:paddingTop="2dp"
+            />
+
+        <RadioButton
+            android:id="@+id/rbMine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="2dp"
+            android:text="@string/rb_four"
+
+            android:drawableTop="@drawable/tab_sel_mine"
+             />
+    </RadioGroup>
+</LinearLayout>

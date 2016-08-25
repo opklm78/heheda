@@ -45,7 +45,10 @@ public class ShowPhotoActivity extends Activity implements ViewFactory, OnTouchL
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
         setContentView(R.layout.show_photo);
+
 
         imgIds = new int[]{R.drawable.item01,R.drawable.item02,R.drawable.item03,R.drawable.item04,
                 R.drawable.item05, R.drawable.item06, R.drawable.item07, R.drawable.item08,R.drawable.item09,

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item android:bottom="5dp"
+        android:right="5dp"
+        android:left="3dp"
+        android:top="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <shape android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <solid android:color="#26d6c4c4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <padding android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </shape>
+    </item>
+</layer-list>
